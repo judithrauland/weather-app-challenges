@@ -1,0 +1,103 @@
+.content {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #d7e1ee;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.current-location {
+  position: absolute;
+  top: 70px;
+  right: 350px;
+  background-color: #8094ac;
+  border: 2px solid #8094ac;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.current-location:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.celsius {
+  text-decoration: none;
+  color: #8094ac;
+}
+
+.fahrenheit {
+  text-decoration: none;
+  color: #8094ac;
+}
+.searchbar {
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.searchbutton {
+  border: none;
+  background-color: #d7e1ee;
+}
+
+.search-button:hover {
+  transition: all 300ms ease;
+}
+
+h1 {
+  padding: 40px 0 0 0;
+}
+
+.datetime {
+  padding: 0 18px;
+}
+
+h4 {
+  font-size: 24px;
+  padding: 15px;
+}
+
+.badge {
+  margin: 0 18px;
+}
+
+.icontoday {
+  text-align: center;
+  font-size: 150px;
+  margin: 0 40px 0 0;
+  padding: 0px 0 0 0;
+}
+
+.card {
+  border-radius: 4em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  background-color: #e9eef5;
+}
+
+h2 {
+  border-bottom: 3px solid #9bacb6;
+}
+
+.details {
+  font-size: 14px;
+}
+
+.forecast {
+  padding: 20px;
+  text-align: center;
+  margin: 20px 0 -20px 0;
+}
+
+.weekdays-temp {
+  font-size: 16px;
+}
+
+.weekdays-icons {
+  font-size: 44px;
+}
