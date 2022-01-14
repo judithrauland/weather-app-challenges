@@ -101,3 +101,9 @@ h2 {
 .weekdays-icons {
   font-size: 44px;
 }
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  margin-top: -40px;
+}
